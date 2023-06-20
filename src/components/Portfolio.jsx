@@ -1,10 +1,8 @@
 import React from "react";
 import depanbtp from "../portfolio/depanbtp.png"
 import hexashop from "../portfolio/hexashop.png";
-import navbar from "../portfolio/navbar.jpg";
 import portfolioimg from "../portfolio/porfolioimg.png";
-import reactSmooth from "../portfolio/reactSmooth.jpg";
-import reactWeather from "../portfolio/reactWeather.jpg";
+
 
 const Portfolio = () => {
   const portfolios = [
@@ -28,24 +26,24 @@ const Portfolio = () => {
       urldemo:"https://hexashopbyisa.netlify.app",
       urlcode:"https://github.com/isa95330/hexashop.git",
     },
-    {
-      id: 4,
-      src: hexashop,
-      urldemo:"https://hexashopbyisa.netlify.app",
-      urlcode:"https://github.com/isa95330/hexashop.git",
-    },
-    {
-      id: 5,
-      src: hexashop,
-      urldemo:"https://hexashopbyisa.netlify.app",
-      urlcode:"https://github.com/isa95330/hexashop.git",
-    },
-    {
-      id: 3,
-      src: hexashop,
-      urldemo:"https://hexashopbyisa.netlify.app",
-      urlcode:"https://github.com/isa95330/hexashop.git",
-    },
+    // {
+    //   id: 4,
+    //   src: hexashop,
+    //   urldemo:"https://hexashopbyisa.netlify.app",
+    //   urlcode:"https://github.com/isa95330/hexashop.git",
+    // },
+    // {
+    //   id: 5,
+    //   src: hexashop,
+    //   urldemo:"https://hexashopbyisa.netlify.app",
+    //   urlcode:"https://github.com/isa95330/hexashop.git",
+    // },
+    // {
+    //   id: 3,
+    //   src: hexashop,
+    //   urldemo:"https://hexashopbyisa.netlify.app",
+    //   urlcode:"https://github.com/isa95330/hexashop.git",
+    // },
   ];
 
   return (
@@ -58,7 +56,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">Retrouvez ici mes différents projets.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">

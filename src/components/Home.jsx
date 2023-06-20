@@ -15,7 +15,7 @@ const Home = () => {
             Développeuse web
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            En formation depuis Septembre 2022 , je suis à la recherche d'une alternance afin de compléter mes connaissances en PHP, Symphony
+            En formation depuis Septembre 2022 , je suis à la recherche d'une alternance afin d'approfondir mes connaissances en react JS , PHP et Symphony.
           </p>
 
           <div>

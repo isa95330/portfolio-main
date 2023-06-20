@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://fr.linkedin.com/in/isabelle-maz%C3%A9-846a8a269",
       style: "rounded-tr-md",
     },
     {
@@ -37,10 +37,10 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          CV <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "/IMCV.pdf",
       style: "rounded-br-md",
       download: true,
     },
