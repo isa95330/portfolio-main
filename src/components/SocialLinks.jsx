@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://linkedin.com/in/isabelle-mazé-846a8a269",
       style: "rounded-tr-md",
     },
     {
