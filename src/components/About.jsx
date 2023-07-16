@@ -4,6 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
+      id="idabout"
       className="mt-10 w-full h-screen  text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -14,7 +15,8 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        Développeuse web passionnée. Avec des compétences dans les langages HTML, CSS, JavaScript et PHP.
+        Développeuse web passionnée ayant des compétences sur les langages HTML, CSS, JavaScript et PHP puis 
+        sur d'autres outils tel que React JS et Symfony .
 
         Je suis une personne dévouée et motivée qui est toujours à la recherche de nouveaux défis pour affiner 
         mes compétences en développement web. Je m'efforce constamment d'apprendre et de rester à jour avec 

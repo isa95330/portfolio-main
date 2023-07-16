@@ -1,6 +1,7 @@
 import React from "react";
 import depanbtp from "../portfolio/depanbtp.png"
 import hexashop from "../portfolio/hexashop.png";
+
 import portfolioimg from "../portfolio/porfolioimg.png";
 
 
@@ -26,29 +27,13 @@ const Portfolio = () => {
       urldemo:"https://hexashopbyisa.netlify.app",
       urlcode:"https://github.com/isa95330/hexashop.git",
     },
-    // {
-    //   id: 4,
-    //   src: hexashop,
-    //   urldemo:"https://hexashopbyisa.netlify.app",
-    //   urlcode:"https://github.com/isa95330/hexashop.git",
-    // },
-    // {
-    //   id: 5,
-    //   src: hexashop,
-    //   urldemo:"https://hexashopbyisa.netlify.app",
-    //   urlcode:"https://github.com/isa95330/hexashop.git",
-    // },
-    // {
-    //   id: 3,
-    //   src: hexashop,
-    //   urldemo:"https://hexashopbyisa.netlify.app",
-    //   urlcode:"https://github.com/isa95330/hexashop.git",
-    // },
+
   ];
 
   return (
     <div
       name="portfolio"
+      id="idportfolio"
       className=" w-full text-white md:h-screen mt-10 "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -56,7 +41,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Retrouvez ici mes différents projets.</p>
+          <p className="py-6">Check out some of my work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
