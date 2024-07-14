@@ -5,9 +5,10 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
-import php from "../assets/php.png";
-import symfony from "../assets/symfony.png";
+import django from "../assets/django.png";
+import python from "../assets/python.png";
 import tailwind from "../assets/tailwind.png";
+import docker from "../assets/docker.png";
 
 const Experience = () => {
   const techs = [
@@ -49,14 +50,20 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: php,
-      title: "Php",
-      style: "shadow-pink-400",
+      src: django,
+      title: "django",
+      style: "shadow-pink-600",
     },
     {
       id: 8,
-      src: symfony,
-      title: "Symfony",
+      src: python,
+      title: "python",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: docker,
+      title: "docker",
       style: "shadow-gray-400",
     },
   ];
@@ -64,7 +71,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      id="idexperience"
+      id="Experience"
       className=" mt-10 w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">

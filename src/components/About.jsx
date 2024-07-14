@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      id="idabout"
+      id="about_me"
       className="mt-10 w-full h-screen  text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -15,23 +15,21 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        Développeuse web passionnée ayant des compétences sur les langages HTML, CSS, JavaScript et PHP puis 
-        sur d'autres outils tel que React JS et Symfony .
+        Développeuse passionnée, j’ai des compétences en HTML, CSS, JavaScript, Python et MySQL, ainsi qu’en outils comme React JS et Django.
+         Je suis dévouée et motivée, toujours à la recherche de nouveaux défis pour affiner mes compétences dans le développement et la data. 
+         Je m’efforce constamment d’apprendre et de rester à jour avec les dernières tendances et technologies émergentes dans le domaine.
 
         Je suis une personne dévouée et motivée qui est toujours à la recherche de nouveaux défis pour affiner 
-        mes compétences en développement web. Je m'efforce constamment d'apprendre et de rester à jour avec 
-        les dernières tendances et technologies émergentes dans le domaine.
+        mes compétences dans le monde du développement et de la data. 
         </p>
 
         <br />
 
         <p className="text-xl">
-        Mes objectifs ,à l'issue de cette formation sont de savoir créer des structures de base solide 
-        pour la conception de site web, maîtriser le CSS afin de donner vie à des designs créatifs 
-        en manipulant les styles et les mises en page.Possèder une solide compréhension de JavaScript, 
-         pour ajouter des fonctionnalités interactives et dynamiques à mes projets web.
-
-        Compléter mes connaisssances backend, avec le langage PHP, afin de
+        Mes objectifs quotidiens sont de prendre de nouvelles compétences, de les mettre en pratique et de les perfectionner.
+        , maîtriser le domaine de la data, 
+         et de possèder une solide compréhension de la programmation orientée objet .
+        Compléter mes connaissances backend, avec le langage python, afin de
          développer des fonctionnalités avancées et de travailler avec des bases de données pour créer 
          des sites web dynamiques et personnalisés 
         </p>

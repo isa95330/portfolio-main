@@ -41,7 +41,7 @@ const SocialLinks = () => {
           CV <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/IMCV.pdf",
+      href: "/cv-isabelle-mazé.pdf",
       style: "rounded-br-md",
       download: true,
     },
