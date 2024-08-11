@@ -30,7 +30,6 @@ const SocialLinks = () => {
         <>
           Mail <HiOutlineMail size={30} />
         </>
-        
       ),
       href: "mailto:isabelledev@proton.me",
     },
@@ -41,23 +40,19 @@ const SocialLinks = () => {
           CV <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/cv-isabelle-mazé.pdf",
+      href: "/isabelle-maze-cv.pdf",
       style: "rounded-br-md",
       download: true,
     },
   ];
 
   return (
-    <div className=" lg:flex flex-col lg:top-[35%] lg:left-0 lg:fixed  sm:static  sm:inset-x-0 sm:bottom-[0] sm:h-[16]">
-
+    <div className="lg:flex flex-col lg:top-[35%] lg:left-0 lg:fixed sm:static sm:inset-x-0 sm:bottom-[0] sm:h-[16]">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
-            className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500"
-           
-            }
+            className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 ${style || ''}`}
           >
             <a
               href={href}
@@ -72,8 +67,6 @@ const SocialLinks = () => {
         ))}
       </ul>
     </div>
-    
-
   );
 };
 

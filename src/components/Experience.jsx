@@ -71,7 +71,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      id="Experience"
+      id="Expérience"
       className=" mt-10 w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">

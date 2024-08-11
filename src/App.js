@@ -14,8 +14,9 @@ function App() {
     const portfolioSection = document.getElementById("portfolio-section");
     if (portfolioSection) {
       const { top } = portfolioSection.getBoundingClientRect();
-      const isBelowTop = top <= 0; // Check if the top of the portfolio section has passed the top of the viewport
-      setShowSocialLinks(!isBelowTop);
+      const hideThreshold = 100; // Adjust this value if necessary
+      const isBelowThreshold = top <= hideThreshold;
+      setShowSocialLinks(!isBelowThreshold);
     }
   };
 
@@ -31,7 +32,9 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      <Portfolio />
+      <div id="portfolio-section">
+        <Portfolio />
+      </div>
       <Experience />
       <Contact />
       {showSocialLinks && <SocialLinks />}
