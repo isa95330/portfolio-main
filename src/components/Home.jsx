@@ -12,13 +12,13 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div id="home" className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Développeuse python | Data Engineer
+            Développeuse Python 
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          Actuellement développeuse en flux de modélisation industrielle dans une start-up,
-          je suis passionnée par le langage Python et tout ce qu'il a à offrir. Spécialisée en Python Django et Data Engineering,
-          je cherche à relever de nouveaux défis. Ouverte à l'apprentissage de nouvelles technologies,
-          je souhaite élargir et approfondir mes compétences pour rester à la pointe de l'innovation.
+          Développeuse Back-End Python passionnée par les défis techniques.
+          Curieuse et toujours souriante, j’aime apprendre et me perfectionner en continu.
+          Entre veille technologique, formations et katas, je cherche toujours à affiner mes
+          compétences et à explorer de nouvelles solutions innovantes
           </p>
           <div>
             <Link
